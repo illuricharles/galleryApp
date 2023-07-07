@@ -1,0 +1,70 @@
+/* Write your code here. */
+
+.bg-container {
+  height: 100vh;
+  padding: 10px;
+}
+
+.selected-image {
+  width: 100%;
+  height: 50%;
+}
+
+.heading {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.description {
+  color: #64748b;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.thumbnail-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.btn {
+  text-align: center;
+  border: 0px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 30px;
+  }
+
+  .image-container {
+    height: 90%;
+    background-size: cover;
+  }
+  .selected-image {
+    height: 100%;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .thumbnail-section {
+    margin: 30px;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,14 @@
+/* Write your code here. */
+.thumbnail-image-unselected {
+  opacity: 0.5;
+}
+
+.thumbnail-image {
+  margin-right: 10px;
+  margin-bottom: 6px;
+  height: 95px;
+}
+
+.current-thumbnail {
+  opacity: 1;
+}
